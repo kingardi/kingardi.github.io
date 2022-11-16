@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Title -->
+    <script>
+        title = "| 𝑫𝒊 𝒃𝒂𝒍𝒊𝒌 𝒔𝒆𝒕𝒊𝒂𝒑 𝒂𝒘𝒂𝒏 𝒎𝒂𝒔𝒊𝒉 𝒂𝒅𝒂 𝒂𝒘𝒂𝒏 𝒍𝒂𝒊𝒏 |";
+        position = 0;
+        function scrolltitle() {
+            document.title = title.substring(position, title.length) + title.substring(0, position); 
+            position++;
+            if (position > title.length) position = 0;
+            titleScroll = window.setTimeout(scrolltitle,170);
+        }
+        scrolltitle();
+    </script>
+    <link rel="icon" href="./assets/instagram.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!--Musik-->
+    <audio autoplay , loop>
+        <source src="assets/backsound.mp3" type="audio/mpeg">
+    </audio>
+    
+
+    <div id="container">
+    <a id="h" href="">
+        <img src="./assets/barner.png">
+    </a>
+
+    <div class="buttons">
+        <!-- Spotify -->
+        <a href="https://www.youtube.com/c/ArdiyasaWirastana/" target="_blank">
+            <img src="./assets/Youtube2.png">
+        </a>
+        <!-- Link Tree -->
+        <a href="https://linkr.bio/ardiyasawirastana" target="_blank">
+            <img src="./assets/twiter3.jpg">
+        </a>
+        <!-- Instagram -->
+        <a href="https://www.instagram.com/ardiyasa_wirastana/" target="_blank">
+            <img src="./assets/instagram.png">
+        </a>
+        <!-- BLANK -->
+        <a href="">
+            <img src="./assets/BLANK.png">
+        </a>
+        <!-- BLANK -->
+        <a href="">
+            <img src="./assets/BLANK.png">
+        </a>
+        <!-- BLANK -->
+        <a href="">
+            <img src="./assets/BLANK.png">
+        </a>
+        <!-- BLANK -->
+        <a href="">
+             <img src="./assets/BLANK.png">
+        </a>
+        <!-- DOWN -->
+        <a href="#index">
+            <img src="./assets/down.gif">
+        </a>        
+        <!-- BLANK -->
+        <a href="">
+            <img src="./assets/BLANK.png">
+        </a>
+    </div>
+    </div>
+    <div class="content" id="index">
+		<a href="#" id="hide"><img src="assets/up.gif"></a>
+		<div class="flexy">
+            <!-- Greetings -->
+			<p class="sechead"><b>/greetings/</b></p>
+			<a class="cell">"Hello everyone, you can call me ARDI. This website is just for fun and a little experiment. So just enjoy looking at this website!"</a>
+            <!-- Home -->
+            <p class="sechead"><b>/home/</b></p>
+            <a class="cell" href="blog/welcome.html" target="_blank">Instagram</a>
+            <a class="cell" href="blog/welcome.html" target="_blank">Discord</a>
+            <a class="cell" href="https://www.youtube.com/c/ArdiyasaWirastana/" target="_blank">Youtube</a>
+            <a class="cell" href="https://discord.gg/nzz9ms55" target="_blank">Twiter</a>
+            <a class="cell" href="https://line.me/R/ti/p/ardiyasa25" target="_blank">Line</a>
+            
+            <!-- ??? -->
+            <p class="sechead"><b>/???/</b></p>
+			<a class="cell">"We never know what will happen tomorrow, the day after, and later.
+                Therefore, keep doing your best today"</a>
+            <!-- Notes -->
+            <p class="sechead"><b>/important notes/</b></p>
+			<a class="cell">"This website design is not completely made by me"</a>
+		</div>
+	</div>
+</body>
+</html>
